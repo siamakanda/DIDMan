@@ -124,7 +124,3 @@ def find_rows_with_today_date():
 
 if __name__ == '__main__':
     find_rows_with_today_date()
-
-
-    git config --global user.name siamakanda
-    git config --global user.email siamakanda5@gmail.com
