@@ -7,6 +7,7 @@ import time
 
 # ====================================================================
 # --- CONFIGURATION (EDIT ONLY IF SPREADSHEET DETAILS CHANGE) ---
+# --- CONFIGURATION (EDIT ONLY IF SPREADSHEET DETAILS CHANGE) ---
 # ====================================================================
 
 # 1. AUTHENTICATION FILE
@@ -35,6 +36,7 @@ CLIENT_COLUMNS_INDICES = [0, 1, 2] # Columns A (Number), B (Date), C (1&Number)
 # --- MAIN FUNCTION ---
 # ====================================================================
 
+def find_rows_with_target_day():
 def find_rows_with_target_day():
     """
     Prompts user for target day, extracts data, and generates two distinct 
@@ -101,6 +103,7 @@ def find_rows_with_target_day():
                 # API Call with Rate Limiting
                 data = worksheet.get_all_values()
                 report['sheets_processed'] += 1
+                report['sheets_processed'] += 1
                 
                 if not data:
                     report['sheets_skipped_empty'] += 1
@@ -109,11 +112,14 @@ def find_rows_with_target_day():
                 
                 matching_rows_in_sheet = []
                 for row in data: 
+                for row in data: 
                     if len(row) > DATE_COLUMN_INDEX:
                         sheet_date_str = row[DATE_COLUMN_INDEX].strip()
                         
                         try:
                             sheet_date_obj = datetime.strptime(sheet_date_str, SHEET_DATE_FORMAT)
+                            if sheet_date_obj.day == target_day_number:
+                                matching_rows_in_sheet.append(row) 
                             if sheet_date_obj.day == target_day_number:
                                 matching_rows_in_sheet.append(row) 
                         except ValueError:
@@ -204,10 +210,14 @@ def find_rows_with_target_day():
 
     except gspread.exceptions.SpreadsheetNotFound:
         print(f"\n❌ FATAL ERROR: Spreadsheet '{SPREADSHEET_NAME}' not found.")
+        print(f"\n❌ FATAL ERROR: Spreadsheet '{SPREADSHEET_NAME}' not found.")
     except FileNotFoundError:
+        print(f"\n❌ FATAL ERROR: Service account key file '{SERVICE_ACCOUNT_KEY_FILE}' not found.")
         print(f"\n❌ FATAL ERROR: Service account key file '{SERVICE_ACCOUNT_KEY_FILE}' not found.")
     except Exception as e:
         print(f"\n❌ UNEXPECTED FATAL ERROR: {e}")
+        print(f"\n❌ UNEXPECTED FATAL ERROR: {e}")
 
 if __name__ == '__main__':
+    find_rows_with_target_day()
     find_rows_with_target_day()
