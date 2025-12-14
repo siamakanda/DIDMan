@@ -7,25 +7,25 @@ import time
 
 # ====================================================================
 # --- CONFIGURATION (EDIT ONLY IF SPREADSHEET DETAILS CHANGE) ---
-# --- CONFIGURATION (EDIT ONLY IF SPREADSHEET DETAILS CHANGE) ---
 # ====================================================================
 
 # 1. AUTHENTICATION FILE
 SERVICE_ACCOUNT_KEY_FILE = 'service_account_key.json' 
 
 # 2. SPREADSHEET DETAILS
-SPREADSHEET_NAME = 'DID_Automation' 
+SPREADSHEET_NAME = 'DIDMan' 
+SPREADSHEET_ID = "1Ph6TUddAK1yVuM0Fbe434mxLuu7b1pXgtpsrJ_fu8bo"
 
 # 3. COLUMN SETTINGS
 DATE_COLUMN_INDEX = 1  # Column B
 SHEET_DATE_FORMAT = '%m/%d/%Y' 
-SLEEP_TIME_SECONDS = 2 
+SLEEP_TIME_SECONDS = 0.5  # Pause between API calls to avoid rate limits
 
 # 4. CUSTOM HEADER DEFINITION (Used for both reports, and dynamic headers)
 CUSTOM_HEADERS = {
-    0: 'Number',  # Column A
+    0: 'DID Number',  # Column A
     1: 'Date',    # Column B
-    2: '1&Number', # Column C (Used explicitly for External Report)
+    2: '1 & DID', # Column C (Used explicitly for External Report)
     3: 'Price',   # Column D
     4: 'Vendor'   # Column E
 }
@@ -36,7 +36,6 @@ CLIENT_COLUMNS_INDICES = [0, 1, 2] # Columns A (Number), B (Date), C (1&Number)
 # --- MAIN FUNCTION ---
 # ====================================================================
 
-def find_rows_with_target_day():
 def find_rows_with_target_day():
     """
     Prompts user for target day, extracts data, and generates two distinct 
@@ -111,7 +110,7 @@ def find_rows_with_target_day():
                     continue
                 
                 matching_rows_in_sheet = []
-                for row in data: 
+
                 for row in data: 
                     if len(row) > DATE_COLUMN_INDEX:
                         sheet_date_str = row[DATE_COLUMN_INDEX].strip()
@@ -219,5 +218,4 @@ def find_rows_with_target_day():
         print(f"\n❌ UNEXPECTED FATAL ERROR: {e}")
 
 if __name__ == '__main__':
-    find_rows_with_target_day()
     find_rows_with_target_day()
