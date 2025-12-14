@@ -1,3 +1,50 @@
-*csv
-*json
+# ----------------------------------------------------------------------
+# 1. Project-Specific Files (Based on your DID_Automation directory)
+# ----------------------------------------------------------------------
+
+# Sensitive credentials file - MUST NOT be committed
+service_account_key.json
+
+# Cache directory used by the application
+cache/
+
+# Temporary output directory for reports
 temp/
+
+# ----------------------------------------------------------------------
+# 2. Python Specific Files
+# ----------------------------------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython extensions
+*.c(px|pyc)
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+*.tar.gz
+
+# ----------------------------------------------------------------------
+# 3. Operating System / IDE Specific Files
+# ----------------------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows / Linux thumbnail files
+Thumbs.db
+
+# Visual Studio Code (VS Code) files
+.vscode/
+
+# Ignore the virtual environment directory (assuming it's named 'venv' or '.venv')
+venv/
+.venv/
