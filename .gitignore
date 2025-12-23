@@ -1,0 +1,15 @@
+# Security: Ignore the Google Service Account key specifically
+service_account_key.json
+
+# Local Data: Ignore the entire cache folder
+cache/
+*.db
+
+# Python/Environment
+.env
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+did_alert_ai.py
