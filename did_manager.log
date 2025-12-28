@@ -1,0 +1,55 @@
+2025-12-28 07:09:31,571 - INFO - DID Manager initialized successfully
+2025-12-28 07:09:49,371 - INFO - Synced: Beltalk (3641 rows)
+2025-12-28 07:09:51,031 - INFO - Synced: ProSolutions (100 rows)
+2025-12-28 07:09:52,668 - INFO - Synced: Irenic Solution (100 rows)
+2025-12-28 07:09:54,407 - INFO - Synced: EmpaxcoAPI(Fractel+peerless) (2 rows)
+2025-12-28 07:09:56,150 - INFO - Synced: Dialify Australian DID (14 rows)
+2025-12-28 07:09:57,787 - ERROR - Error syncing 'Canada DIDs': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:09:59,423 - INFO - Synced: BVD TELECOM (310 rows)
+2025-12-28 07:10:01,048 - INFO - Synced: All round flights pvt ltd (2 rows)
+2025-12-28 07:10:02,806 - INFO - Synced: NIK/724 CareInc (1000 rows)
+2025-12-28 07:10:04,531 - INFO - Synced: Bolt Metrics infotech (301 rows)
+2025-12-28 07:10:06,715 - ERROR - Error syncing '8core Nhel1': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:10:11,616 - INFO - Synced: Telecampus (99 rows)
+2025-12-28 07:10:13,329 - INFO - Synced: GCC (1 rows)
+2025-12-28 07:10:14,935 - ERROR - Error syncing 'Express International': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:10:16,671 - INFO - Synced: Outsourcing skill (3000 rows)
+2025-12-28 07:10:18,303 - ERROR - Error syncing 'Only Talk': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:10:19,964 - ERROR - Error syncing 'Instacall Pool 1': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:10:21,633 - INFO - Synced: I Venture (300 rows)
+2025-12-28 07:10:23,280 - INFO - Synced: Thrive BPO (2 rows)
+2025-12-28 07:10:25,016 - INFO - Synced: Specialist (330 rows)
+2025-12-28 07:10:26,642 - INFO - Synced: MedicareSure (300 rows)
+2025-12-28 07:10:28,316 - INFO - Synced: Bright USA (500 rows)
+2025-12-28 07:10:30,038 - INFO - Synced: Energy Efficiency of Texas/inex power(telecampus) (501 rows)
+2025-12-28 07:10:31,756 - INFO - Synced: Instacall Office (172 rows)
+2025-12-28 07:10:35,046 - INFO - Synced: VOIPLYNK (1 rows)
+2025-12-28 07:10:36,693 - INFO - Synced: North Star M (1 rows)
+2025-12-28 07:10:38,426 - INFO - Synced: Digifea (2 rows)
+2025-12-28 07:10:40,024 - ERROR - Error syncing 'Global Telivoz': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:10:41,725 - INFO - Synced: FUSION BPO (301 rows)
+2025-12-28 07:10:44,374 - INFO - Synced: Combry (4944 rows)
+2025-12-28 07:10:46,688 - INFO - Synced: Innovation (9832 rows)
+2025-12-28 07:10:48,597 - INFO - Synced: DGCP (2823 rows)
+2025-12-28 07:10:52,111 - INFO - Synced: Royalleads (3000 rows)
+2025-12-28 07:10:53,799 - INFO - Synced: AA solution (2 rows)
+2025-12-28 07:10:55,424 - INFO - Synced: Lead Genaration (10 rows)
+2025-12-28 07:11:03,645 - INFO - Synced: ARC (31 rows)
+2025-12-28 07:11:05,393 - INFO - Synced: SEE INTERNATIONAL (2801 rows)
+2025-12-28 07:11:08,732 - INFO - Synced: Qalkul (1 rows)
+2025-12-28 07:11:10,826 - INFO - Synced: SIP crew (4600 rows)
+2025-12-28 07:11:12,523 - INFO - Synced: Bravo (2 rows)
+2025-12-28 07:11:14,166 - INFO - Synced: Wains (181 rows)
+2025-12-28 07:11:15,768 - ERROR - Error syncing 'Tele Musketeers': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:11:17,406 - ERROR - Error syncing 'YSM': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:11:19,066 - INFO - Synced: Call point (100 rows)
+2025-12-28 07:11:20,716 - INFO - Synced: MN solution (100 rows)
+2025-12-28 07:11:22,352 - INFO - Synced: Sales connect (1 rows)
+2025-12-28 07:11:24,004 - INFO - Synced: Bkld (21 rows)
+2025-12-28 07:11:25,698 - INFO - Synced: JRMSN (301 rows)
+2025-12-28 07:11:27,383 - INFO - Synced: AR International (301 rows)
+2025-12-28 07:11:29,000 - ERROR - Error syncing 'LeadOlympia': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
+2025-12-28 07:11:30,781 - INFO - Synced: Webstar Solution LLC (1000 rows)
+2025-12-28 07:11:32,492 - INFO - Synced: AquaFaks (500 rows)
+2025-12-28 07:11:34,229 - INFO - Synced: Lead Tech (101 rows)
+2025-12-28 07:11:36,154 - ERROR - Error syncing 'DID/TFN due inf': Column must be constructed with a non-blank name or assign a non-blank .name before adding to a Table.
