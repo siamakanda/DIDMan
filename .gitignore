@@ -2,6 +2,7 @@
 service_account_key.json
 
 # Local Data: Ignore the entire cache folder
+export/
 cache/
 *.db
 
