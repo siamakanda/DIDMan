@@ -13,3 +13,7 @@ venv/
 __pycache__/
 *.py[cod]
 did_alert_ai.py
+
+# IDEs and Editors
+.vscode/
+*.log
